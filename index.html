@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Coffee House Chains</title>
+    <link rel="icon" type="image/x-icon" href="https://www.flaticon.com/svg/static/icons/svg/924/924514.svg">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap" rel="stylesheet">
+
+    <!-- STYLESHEETS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div id="container" class="text-center">
+
+        <h2 id="title">Coffee House Chains</h2>
+        <p>A ranking of selected leading coffee house chains worldwide</p>
+
+        <div class="row">
+            <div class="col-8">
+                <!-- CHART -->
+                <div class="chart"></div>
+            </div>
+
+            <div class="col-4">
+                <!-- GROUPING DROPDOWN -->
+                <h5>Group by</h5>
+                <div class="user-control">
+                    <select id="category">
+                        <option value="stores">Stores</option>
+                        <option value="revenue">Revenue</option>
+                    </select>
+                </div>
+                <br>
+                <!-- SORT BUTTON -->
+                <button id="sort">Sort</button>
+            </div>
+        </div>
+
+    </div>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="main.js" async defer></script>
+
+</body>
+
+</html>
