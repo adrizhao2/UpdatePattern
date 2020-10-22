@@ -1,0 +1,18 @@
+body{
+    margin-top: 50px;
+    margin-left: 100px;
+
+    font-family: 'Nunito';
+
+}
+
+select{
+    background-color: #ffffff;
+    border-color: #557387;
+    
+}
+
+button{
+    background-color: #557387;
+    border-color: #557387;
+}
